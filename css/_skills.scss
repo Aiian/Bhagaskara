@@ -1,0 +1,42 @@
+#skills {
+  background-color: white;
+  .innerContainer {
+    flex-direction: column;
+    align-items: center;
+    width: $containerWidthLarge;
+    margin: 0 auto 5em auto;
+    .flexbox {
+      flex-direction: row;
+      width: 60%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .innerFlexbox {
+        flex-direction: column;
+        width: 45%;
+        .skillBox {
+          flex-direction: column;
+
+          .skillDescription {
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 1em 0 0.25em 0;
+            p {
+              font-weight: bold;
+              text-transform: uppercase;
+            }
+          }
+          .progressBar {
+            width: 100%;
+            height: 0.75em;
+            background-color: rgb(205, 205, 205);
+
+            div {
+              height: 0.75em;
+              background-color: $ColorHighlight;
+            }
+          }
+        }
+      }
+    }
+  }
+}

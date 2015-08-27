@@ -1,0 +1,79 @@
+header {
+  background-image: url('../images/jumbo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%, auto;
+  background-position: 0 0;
+  height: 0;
+  padding: 0 0 67.05%;
+  color: $fontColorPrimary;
+
+  .innerContainer {
+    flex-direction: column;
+    align-items: center;
+    width: $containerWidthLarge;
+    height: 50em;
+  }
+
+  h1 {
+    font-size: 3.3em;
+    font-weight: bold;
+    margin: 2em 0 .5em 0;
+  }
+  h3 {
+    font-size: 1.8em;
+    margin: 0 0 0.5em 0;
+
+  }
+  p {
+    font-size: 1em;
+    padding: 0 4em;
+  }
+
+  .flexbox {
+    margin: 6em 0 0 0;
+    align-items: center;
+    justify-content: center;
+
+    .headerBox {
+      height: 11em;
+      width: 15%;
+      margin: 10em 0.25em 0 0.25em;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      background-image: url("../images/ps_files/roundedIcon.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 0 0;
+      &:nth-child(3) {
+        margin: 0 0 10em 0;
+      }
+      &:nth-child(4) {
+        margin: 0 0 10em 0;
+      }
+      .icon {
+        padding: 2em 0 2em 0;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 80%;
+          height: 80%;
+        }
+      }
+    }
+  }
+  #scroller {
+    background-image: url("../images/ps_files/roundedIcon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+    height: 5em;
+    width: 4.5em;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: auto;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+nav {
+  background-color: white;
+  justify-content: space-between;
+  color: $fontColorSecondary;
+  font-size: 1em;
+  font-weight: bold;
+
+  .innerContainer {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul {
+    width: 60%;
+    justify-content: space-around;
+    //font-family: latoregular sans-serif;
+  }
+
+  li {
+    padding: 2em 0;
+  }
+
+  a {
+    &:link, &:visited {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $fontColorSecondary;
+    }
+    &:hover {
+      color: $ColorHighlight;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
